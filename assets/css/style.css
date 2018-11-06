@@ -1,0 +1,21 @@
+/*-------------------------------------------Colors*/
+body{
+    background-color: #fafafa;
+}
+
+.bg-color-nav{
+    background-color: #575757;
+}
+
+/*-------------------------------------------Utility classes*/
+
+
+
+/*-------------------------------------------Navbar*/
+
+.navbar-default{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+}
