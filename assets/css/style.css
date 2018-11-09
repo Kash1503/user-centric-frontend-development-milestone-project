@@ -32,7 +32,7 @@ body{
 }
 
 .vertical-align-center{
-    margin: 30vh auto;
+    margin: 20vh auto;
     position: relative;
 }
 
@@ -165,7 +165,7 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    height: 80vh;
+    height: 90vh;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -176,4 +176,26 @@ body{
     color: #fff;
     font-weight: 200;
     display: block;
+    font-size: 30px;
+}
+
+.welcome-heading{
+    color: #fff;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.btn-newsletter{
+    background-color: #f70707;
+    color: #fff;
+}
+
+.btn-newsletter:hover, 
+.btn-newsletter:active,
+.btn-newsletter:focus,
+.btn:hover, 
+.btn:active,
+.btn:focus{
+    background-color: #c10101;
+    color: #fff;
 }
