@@ -1,66 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100, 200, 300, 400, 500, 600, 700');
 
 /*-------------------------------------------Colors*/
-body{
+
+body {
     background-color: #fafafa;
 }
 
-.bg-color-nav{
+.bg-color-nav {
     background-color: #fff;
     border-bottom: 1px solid #000;
 }
 
-.bg-color-footer{
+.bg-color-footer {
     background-color: #fff;
     border-top: 1px solid #000;
 }
 
 /*-------------------------------------------Utility classes*/
 
-.center-align{
+.center-align {
     text-align: center;
 }
 
-.left-align{
+.left-align {
     text-align: left;
     margin-left: 10px;
 }
 
-.right-align{
+.right-align {
     text-align: right;
     margin-right: 10px;
 }
 
-.vertical-align-center{
+.vertical-align-center {
     margin: 20vh auto;
     position: relative;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.overlay-image{
-    background-color: rgba(0,0,0,0.4);
+.overlay-image {
+    background-color: rgba(0, 0, 0, 0.4);
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.spacer{
+.spacer {
     background-color: #f70707;
     width: 50px;
     height: 5px;
     border: none;
 }
 
-.no-padding{
+.no-padding {
     padding: 0;
 }
 
 /*-------------------------------------------Navbar*/
 
-.navbar-default{
+.navbar-default {
     margin: 0;
     padding: 0;
     border-radius: 0;
@@ -72,18 +73,18 @@ body{
 }
 
 .navbar-logo,
-.navbar-logo:hover{
+.navbar-logo:hover {
     color: #000;
     font-size: 24px;
     text-align: left;
     text-decoration: none;
 }
 
-.social-nav li{
+.social-nav li {
     margin: 15px 5px 0 5px;
 }
 
-.social-nav li a i{
+.social-nav li a i {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -99,13 +100,13 @@ body{
     -o-transition: all 0.2s ease-in-out;
 }
 
-.social-nav a i:hover{
+.social-nav a i:hover {
     text-decoration: none;
     color: #f70707;
     border: 1px solid #f70707;
 }
 
-.main-nav a{
+.main-nav a {
     font-size: 15px;
     display: block;
     color: #575757;
@@ -118,12 +119,12 @@ body{
 }
 
 .main-nav a:hover,
-.main-nav a:focus{
+.main-nav a:focus {
     text-decoration: none;
     color: #f70707;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
     margin: 4px 0;
     transition: all 0.2s ease-in-out;
@@ -132,7 +133,7 @@ body{
     -o-transition: all 0.2s ease-in-out;
 }
 
-.navbar-default .navbar-toggle{
+.navbar-default .navbar-toggle {
     border: none;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -140,28 +141,29 @@ body{
     -o-transition: all 0.2s ease-in-out;
 }
 
-.navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover {
     background-color: #000;
 }
-.navbar-default .navbar-toggle:hover .icon-bar{
+
+.navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #fff;
 }
 
-.logo-image{
+.logo-image {
     height: 68px;
     width: 200px;
 }
 
 /*-------------------------------------------Footer*/
 
-.copyright-text{
+.copyright-text {
     margin-top: 10px;
     font-size: 10px;
 }
 
 /*-------------------------------------------Welcome section*/
 
-.welcome-image{
+.welcome-image {
     background-image: url(../images/monkees.jpg);
     background-size: cover;
     -moz-background-size: cover;
@@ -174,14 +176,14 @@ body{
     display: flex;
 }
 
-.welcome-text{
+.welcome-text {
     color: #fff;
     font-weight: 200;
     display: block;
     font-size: 30px;
 }
 
-.welcome-heading{
+.welcome-heading {
     color: #fff;
     font-weight: 400;
     font-size: 45px;
@@ -189,41 +191,58 @@ body{
 
 /*-------------------------------------------Newsletter sign up*/
 
-.btn-newsletter{
+.btn-newsletter {
     background-color: #f70707;
     color: #fff;
 }
 
-.btn-newsletter:hover, 
+.btn-newsletter:hover,
 .btn-newsletter:active,
 .btn-newsletter:focus,
-.btn:hover, 
+.btn:hover,
 .btn:active,
-.btn:focus{
+.btn:focus {
     background-color: #c10101;
     color: #fff;
 }
 
-.newsletter-form{
+.newsletter-form {
     margin: 10px;
 }
 
-.newsletter-text{
+.newsletter-text {
     color: #575757;
     font-weight: 200;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.newsletter-heading{
+.newsletter-heading {
     color: #000;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 30px;
     margin: 0;
 }
 
-.newsletter-section{
+.newsletter-section {
     margin: 50px 0;
 }
 
-/*-------------------------------------------Breakpoints*/
+/*-------------------------------------------Media Queries*/
+
+@media(min-width: 768px) {
+
+    .newsletter-heading {
+        color: #000;
+        font-weight: 400;
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .newsletter-text {
+        color: #575757;
+        font-weight: 200;
+        display: block;
+        font-size: 30px;
+    }
+}
