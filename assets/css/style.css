@@ -53,6 +53,7 @@ body {
     width: 50px;
     height: 5px;
     border: none;
+    border-radius: 500px;
 }
 
 .no-padding {
@@ -226,6 +227,57 @@ body {
 
 .newsletter-section {
     margin: 50px 0;
+}
+
+/*-------------------------------------------Booking form*/
+
+.booking-form {
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+
+.booking-text{
+    color: #575757;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.label-text{
+    font-weight: 400;
+}
+
+.label-subtext{
+    font-weight: 200;
+}
+
+.placeholder-text{
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.placeholder-text::placeholder{
+    font-weight: 200;
+    font-size: 13px;
+}
+
+/*-------------------------------------------Contact section*/
+
+.contact-section{
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+.contact-heading{
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contact-text{
+    font-weight: 200;
+    margin-bottom: 0;
 }
 
 /*-------------------------------------------Media Queries*/
