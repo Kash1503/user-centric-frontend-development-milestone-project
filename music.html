@@ -88,185 +88,46 @@
         </nav>
     </header>
     <section>
+        <!-----------------Title--------------->
         <div class="container-fluid">
             <div class="row">
-                <!-----------------Contact info--------------->
-                <div class="hidden-xs col-sm-3 contact-section">
-                    <div class="row">
-                        <h4 class="">Want to speak to someone in person?</h4>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Enquiries:</h4>
-                        <p class="contact-text">T: 555 5555 555</p>
-                        <p class="contact-text">E: enquiries@email.com</p>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Billing:</h4>
-                        <p class="contact-text">T: 555 5555 666</p>
-                        <p class="contact-text">E: billing@email.com</p>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Existing bookings:</h4>
-                        <p class="contact-text">T: 555 5555 777</p>
-                        <p class="contact-text">E: bookings@email.com</p>
+                <div class="col-xs-12">
+                    <h2 class="text-center uppercase">The Back Catalogue</h2>
+                    <p class="text-center">Enjoy some of the classics!</p>
+                </div>
+            </div>
+            <hr class="spacer">
+            <div class="row">
+                <!-----------------Cover art--------------->
+                <div class="hidden-xs col-sm-3 cover-section">
+                    <div class="music-cover">
+                        <h4 class="text-center">The Monkees</h4>
+                        <p class="text-center">Daydream Believer</p>
+                        <img src="assets/images/daydream.jpg" class="cover-image" alt="Daydream Believer cover image"></img>
+                        <p class="text-center">Released 1968</p>
                     </div>
                 </div>
-
-                <!-----------------Booking form--------------->
-                <div class="col-xs-12 col-sm-6">
-                    <div class="row">
-                        <h2 class="uppercase text-center">Got an event planned?</h2>
-                        <p class="text-center booking-text">Interested in booking us for your event? Fill out the form below and we'll be in touch</p>
-                    </div>
-                    <form class="booking-form" id="bookingForm">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <label class="label-text ">Who are you booking for?</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <div class="form-group">
-                                    <label for="title" class="sr-only">Title</label>
-                                    <input type="text" name="title" required class="form-control placeholder-text" id="title" placeholder="Title">
-                                </div>
-                            </div>
-                            <div class="col-xs-4">
-                                <div class="form-group">
-                                    <label for="firstName" class="sr-only">First Name</label>
-                                    <input type="text" name="firstName" required class="form-control placeholder-text" id="firstName" placeholder="First Name(s)">
-                                </div>
-                            </div>
-                            <div class="col-xs-4">
-                                <div class="form-group">
-                                    <label for="lastName" class="sr-only">Last Name</label>
-                                    <input type="text" name="lastName" required class="form-control placeholder-text" id="lastName" placeholder="Last Name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <label class="label-text ">Contact details</label>
-                            </div>
-                            <div class="col-xs-5">
-                                <div class="form-group">
-                                    <label for="telephone" class="sr-only">Telephone</label>
-                                    <input type="number" name="telephone" required class="form-control placeholder-text" id="telephone" placeholder="Telephone">
-                                </div>
-                            </div>
-                            <div class="col-xs-7">
-                                <div class="form-group">
-                                    <label for="emailAddress" class="sr-only">Email Address</label>
-                                    <input type="email" name="emailAddress" required class="form-control placeholder-text" id="emailAddress" placeholder="Email Address">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <label class="label-text ">Venue address</label>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <label for="name" class="sr-only">Venue name</label>
-                                    <input type="text" name="name" required class="form-control placeholder-text" id="name" placeholder="Venue Name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="street" class="sr-only">Street</label>
-                                    <input type="text" name="street" required class="form-control placeholder-text" id="street" placeholder="Street Name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="secondLine" class="sr-only">Second Line</label>
-                                    <input type="text" name="secondLine" class="form-control placeholder-text" id="secondLine" placeholder="Optional">
-                                </div>
-                                <div class="form-group">
-                                    <label for="town" class="sr-only">Town</label>
-                                    <input type="text" name="town" class="form-control placeholder-text" id="town" placeholder="Town">
-                                </div>
-                                <div class="form-group">
-                                    <label for="city" class="sr-only">City</label>
-                                    <input type="text" name="city" required class="form-control placeholder-text" id="city" placeholder="City">
-                                </div>
-                                <div class="form-group">
-                                    <label for="county" class="sr-only">County</label>
-                                    <input type="text" name="county" required class="form-control placeholder-text" id="county" placeholder="County">
-                                </div>
-                                <div class="form-group">
-                                    <label for="postCode" class="sr-only">Zip/Post Code</label>
-                                    <input type="text" name="postCode" required class="form-control placeholder-text" id="postCode" placeholder="Zip/Post Code">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="form-group">
-                                    <label for="numberOfPeople" class="label-text">Number of People</label><br>
-                                    <select form="bookingForm" name="numberOfPeople" class="form-control placeholder-text" required>
-                                        <optgroup label="Number of People">
-                                            <option value="1-25">1 to 25</option>
-                                            <option value="26-50">26 to 50</option>
-                                            <option value="51-75">51 to 75</option>
-                                            <option value="75+">75+</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="form-group">
-                                    <label for="bookingDate" class="label-text">Date of event</label><br>
-                                    <input type="date" name="bookingDate" required class="form-control placeholder-text" id="bookingDate" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <label class="label-text ">Time of event</label>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="form-group">
-                                    <label for="timeFrom" class="label-subtext">From</label>
-                                    <input type="time" name="timeFrom" required class="form-control placeholder-text" id="timeFrom" />
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="form-group">
-                                    <label for="timeTo" class="label-subtext">Until</label>
-                                    <input type="time" name="timeTo" required class="form-control placeholder-text" id="timeTo" />
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-newsletter">Submit</button>
-                    </form>
+                <!-----------------Video player--------------->
+                <div class="col-xs-12 col-sm-9">
+                    <video class="music-video" controls>
+                    <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+                    Your browser does not support this video
+                    </video>
                 </div>
-                <!-----------------Contact Info - Mobile--------------->
-                <div class="col-xs-12 hidden-sm hidden-md hidden-lg contact-section">
-                    <div class="row">
-                        <h4 class="">Want to speak to someone in person?</h4>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Enquiries:</h4>
-                        <p class="contact-text">T: 555 5555 555</p>
-                        <p class="contact-text">E: enquiries@email.com</p>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Billing:</h4>
-                        <p class="contact-text">T: 555 5555 666</p>
-                        <p class="contact-text">E: billing@email.com</p>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <h4 class="contact-heading">Existing bookings:</h4>
-                        <p class="contact-text">T: 555 5555 777</p>
-                        <p class="contact-text">E: bookings@email.com</p>
+                <!-----------------Cover art - mobile--------------->
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg cover-section">
+                    <div class="music-cover">
+                        <h4 class="text-center">The Monkees</h4>
+                        <p class="text-center">Daydream Believer</p>
+                        <img src="assets/images/daydream.jpg" class="cover-image" alt="Daydream Believer cover image"></img>
+                        <p class="text-center">Released 1968</p>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
 
+            </div>
+        </div>
     </section>
     <footer>
         <!-----------------Newsletter--------------->
