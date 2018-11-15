@@ -16,6 +16,10 @@ body {
     border-top: 1px solid #000;
 }
 
+.dark-background{
+    background-color: #676767;
+}
+
 /*-------------------------------------------Utility classes*/
 
 .center-align {
@@ -281,6 +285,7 @@ body {
 }
 
 /*-------------------------------------------Music*/
+/*-------------------------------------------Video*/
 
 .music-video {
     position: relative;
@@ -310,6 +315,8 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+/*-------------------------------------------Audio*/
 
 .music-audio{
     position: relative;
@@ -347,6 +354,34 @@ body {
     position: relative;
     display: block;
     margin: 10px 20%;
+}
+
+/*-------------------------------------------Latest Content*/
+
+.latest-content-youtube{
+    margin: 20px auto;
+    position: relative;
+    display: block;
+}
+
+.latest-content-youtube a{
+    font-size: 80px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.latest-content-youtube a:hover{
+    font-size: 80px;
+    color: #f70707;
+    text-decoration: none;
+}
+
+.latest-content-heading{
+    color: #fff;
 }
 
 /*-------------------------------------------Media Queries*/
