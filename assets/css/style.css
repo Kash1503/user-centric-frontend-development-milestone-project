@@ -342,6 +342,13 @@ body {
     height: 50%;
     margin: 0 auto;
 }
+
+.info-text{
+    position: relative;
+    display: block;
+    margin: 10px 20%;
+}
+
 /*-------------------------------------------Media Queries*/
 
 @media(min-width: 768px) {
@@ -363,9 +370,9 @@ body {
     .music-cover {
         position: relative;
         display: block;
-        width: 50%;
-        height: 50%;
-        margin: 25%;
+        width: 15%;
+        height: 15%;
+        margin: 20px auto;
     }
 
 }
