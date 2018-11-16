@@ -391,7 +391,7 @@ body {
     color: #fff;
 }
 
-/*-------------------------------------------Band members*/
+/*-------------------------------------------Band members section*/
 
 .overlay-image-band {
     background-color: rgba(0, 0, 0, 0);
@@ -465,6 +465,52 @@ body {
     background-size: cover;
 }
 
+/*-------------------------------------------Band section*/
+
+.photo-border-band {
+    height: 180px;
+    width: 280px;
+    border-radius: 5px;
+    border: 3px solid #f70707;
+    margin: 10px auto;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.photo-border-band p {
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.band-photo {
+    background-image: url(../images/cover3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #000;
+    margin: 12px auto;
+    display: table;
+    position: relative;
+}
+
+.overlay-image-band-photo {
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
 
 
 
@@ -525,6 +571,43 @@ body {
     }
 
     .photo-border:hover .overlay-image-band {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .photo-border-band {
+        height: 330px;
+        width: 530px;
+        border-radius: 5px;
+        border: 5px solid #575757;
+        margin: 10px auto;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
+
+    .band-photo {
+        background-image: url(../images/cover3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 500px;
+        border-radius: 5px;
+        background-color: #000;
+        margin: 10px auto;
+        display: table;
+        position: relative;
+    }
+
+    .photo-border-band:hover {
+        border-color: #f70707;
+    }
+
+    .photo-border-band:hover p {
+        color: rgba(255, 255, 255, 1)
+    }
+
+    .photo-border-band:hover .overlay-image-band-photo {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
