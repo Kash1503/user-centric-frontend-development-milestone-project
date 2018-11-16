@@ -445,24 +445,36 @@ body {
     background-image: url(../images/dj.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .md {
     background-image: url(../images/md.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .mn {
     background-image: url(../images/mn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .pt {
     background-image: url(../images/pt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 /*-------------------------------------------Band section*/
@@ -540,11 +552,21 @@ body {
         margin: 20px auto;
     }
 
+    .band-member-section {
+        background-image: url(../images/monkees2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        height: 100vh;
+    }
+    
     .photo-border {
         height: 300px;
         width: 300px;
         border-radius: 50%;
-        border: 5px solid #575757;
+        border: 5px solid #fff;
         margin: 10px auto;
         transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
