@@ -392,17 +392,41 @@ body {
 
 /*-------------------------------------------Band members*/
 
+.overlay-image-band {
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.photo-border{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: 5px solid #575757;
+    margin: 10px auto;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
 .band-member-photo{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-color: #676767;
+    background-color: #000;
     display: table;
     position: relative;
     margin: 10px auto;
 }
 
-.band-member-photo p{
+.photo-border p{
     color: rgba(255,255,255,0);
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -410,8 +434,16 @@ body {
     -o-transition: all 0.2s ease-in-out;
 }
 
-.band-member-photo:hover p{
+.photo-border:hover{
+    border-color: #f70707;
+}
+
+.photo-border:hover p{
     color: rgba(255,255,255,1);
+}
+
+.photo-border:hover .overlay-image-band{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .dj{
