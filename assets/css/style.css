@@ -64,6 +64,12 @@ body {
     padding: 0;
 }
 
+.center-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
 /*-------------------------------------------Navbar*/
 
 .navbar-default {
@@ -383,6 +389,57 @@ body {
 .latest-content-heading{
     color: #fff;
 }
+
+/*-------------------------------------------Band members*/
+
+.band-member-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #676767;
+    display: table;
+    position: relative;
+    margin: 10px auto;
+}
+
+.band-member-photo p{
+    color: rgba(255,255,255,0);
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.band-member-photo:hover p{
+    color: rgba(255,255,255,1);
+}
+
+.dj{
+    background-image: url(../images/dj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.md{
+    background-image: url(../images/md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mn{
+    background-image: url(../images/mn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt{
+    background-image: url(../images/pt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 /*-------------------------------------------Media Queries*/
 
