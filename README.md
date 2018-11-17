@@ -87,46 +87,46 @@ Wireframes and other documentation is stored in the [Planning Folder](planning)
 All testing completed on Safari and Google Chrome at both mobile and desktop size on macbook pro and iphone 7 Plus. Unable to see difference between browsers tested on.
 
 1. Booking Form:
-    i. Go to the 'Booking' page
-   ii. Attempted to submit an empty form
-  iii. Attempted to input invalid email format
-   iv. Attempted to input alphabetic characters into the 'phone number' field
-    v. Completed form and checked there was no error message
+ - Go to the 'Booking' page
+ - Attempted to submit an empty form
+ - Attempted to input invalid email format
+ - Attempted to input alphabetic characters into the 'phone number' field
+ - Completed form and checked there was no error message
 
 2. Contact section responsiveness:
-    i. Go to the 'Booking' page
-   ii. Check the contact information is readable on all resolutions/devices
+ - Go to the 'Booking' page
+ - Check the contact information is readable on all resolutions/devices
 
 3. Back Catalogue:
-    i. Go to the 'Music' page
-   ii. Attempted to play video file
-  iii. Attempted to play audio file
-   iv. Tested use of the audio/video controls
-    v. Ensured cover images and content was visible/audiable on all resolutions
+ - Go to the 'Music' page
+ - Attempted to play video file
+ - Attempted to play audio file
+ - Tested use of the audio/video controls
+ - Ensured cover images and content was visible/audiable on all resolutions
 
 4. Latest content:
-    i. Go to the 'Music' page
-   ii. Checked that the youtube link was visible on all resolutions
-  iii. Tested link to ensure it opened new tab and took user to the youtube page
+ - Go to the 'Music' page
+ - Checked that the youtube link was visible on all resolutions
+ - Tested link to ensure it opened new tab and took user to the youtube page
 
 5. Social Links:
-    i. Go to the 'Home' page
-   ii. Test all social media links in header and footer to ensure new tab is opened and appropriate page is loaded
-  iii. Cycled through every page and repeated test
+ - Go to the 'Home' page
+ - Test all social media links in header and footer to ensure new tab is opened and appropriate page is loaded
+ - Cycled through every page and repeated test
 
 6. Band information page:
-    i. Go to the 'The Band' page
-   ii. Hovered each image to ensure animation played
-  iii. Checked to see all text stayed within parent image
-   iv. Ensured all text was legible and visible at all resolutions
-    v. Tested between desktop and mobile to ensure information is readable and user friendly on all devices
+ - Go to the 'The Band' page
+ - Hovered each image to ensure animation played
+ - Checked to see all text stayed within parent image
+ - Ensured all text was legible and visible at all resolutions
+ - Tested between desktop and mobile to ensure information is readable and user friendly on all devices
 
 7. Newsletter Form:
-    i. Go to the 'Home' page
-   ii. Tested submit button with empty form to ensure required fields were functioning correctly
-  iii. Tested submit button with complete form to ensure it was successful
-   iv. Attempted to input invalid email format to ensure data type is correct
-    v. Tested modal button on smaller resolutions to ensure modal loads and form works as per testing above
+ - Go to the 'Home' page
+ - Tested submit button with empty form to ensure required fields were functioning correctly
+ - Tested submit button with complete form to ensure it was successful
+ - Attempted to input invalid email format to ensure data type is correct
+ - Tested modal button on smaller resolutions to ensure modal loads and form works as per testing above
 
 Encountered various bugs while testing:
 
@@ -140,7 +140,7 @@ Encountered various bugs while testing:
 
 In order to deploy this project, regular commits were made to the Github repository and then using Github pages I was able to deploy the website. No apparent difference between development and deployed builds.
 
-I have only used on Git branch to develop and deploy this project. 
+I have only used one Git branch to develop and deploy this project. 
 
 ## Credit
 
