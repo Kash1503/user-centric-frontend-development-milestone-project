@@ -54,8 +54,8 @@ body {
 
 .spacer {
     background-color: #f70707;
-    width: 50px;
-    height: 5px;
+    width: 100px;
+    height: 3px;
     border: none;
     border-radius: 500px;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .social-nav li {
-    margin: 15px 5px 0 5px;
+    margin: 15px 2px 0 2px;
 }
 
 .social-nav li a i {
@@ -237,6 +237,7 @@ body {
 
 .newsletter-section {
     margin: 50px 0;
+    width: 100%;
 }
 
 /*-------------------------------------------Booking form*/
@@ -251,6 +252,7 @@ body {
     color: #575757;
     font-size: 18px;
     font-weight: 200;
+    padding: 0 20px;
 }
 
 .label-text {
@@ -279,20 +281,31 @@ body {
     position: relative;
 }
 
+.contact-section-heading {
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .contact-heading {
-    margin: 30px 0;
+    margin: 30px auto;
     font-weight: 500;
     font-size: 15px;
+    text-align: center;
+
 }
 
 .contact-text {
     font-weight: 200;
-    margin-bottom: 0;
+    font-size: 10px;
+    margin: ;
+    0 auto;
+    text-align: center;
 }
 
 /*-------------------------------------------Music*/
 
-/*-------------------------------------------Video*/
+/*-------------------------------Video*/
 
 .music-video {
     position: relative;
@@ -330,6 +343,7 @@ body {
     display: block;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .audio-section {
@@ -433,6 +447,11 @@ body {
     margin: 10px auto;
 }
 
+.band-member-info p {
+    padding: 0 25px;
+    text-align: justify;
+}
+
 .photo-border p {
     color: rgba(255, 255, 255, 0);
     transition: all 0.2s ease-in-out;
@@ -530,6 +549,13 @@ body {
 
 @media(min-width: 768px) {
 
+    /*--------------Social links*/
+    
+    .social-nav li {
+        margin: 15px 5px 0 5px;
+    }
+
+    /*--------------Newsletter section*/
     .newsletter-heading {
         color: #000;
         font-weight: 400;
@@ -544,6 +570,36 @@ body {
         font-size: 30px;
     }
 
+    /*--------------Booking*/
+    .booking-text {
+        color: #575757;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    /*--------------Contact*/
+    .contact-heading {
+        margin: 30px 0;
+        padding-left: 30px;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .contact-text {
+        font-weight: 200;
+        margin-bottom: 0;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .contact-section-heading {
+        font-weight: 500;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    /*--------------Video*/
     .music-cover {
         position: relative;
         display: block;
@@ -552,6 +608,15 @@ body {
         margin: 20px auto;
     }
 
+    /*---------------Audio*/
+    .music-audio {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*--------------band members section*/
     .band-member-section {
         background-image: url(../images/monkees2.jpg);
         background-repeat: no-repeat;
@@ -559,9 +624,9 @@ body {
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
-        height: 100vh;
+        height: 650px;
     }
-    
+
     .photo-border {
         height: 300px;
         width: 300px;
@@ -584,6 +649,12 @@ body {
         margin: 10px auto;
     }
 
+    .band-member-info {
+        display: table;
+        position: relative;
+        margin: 10px auto;
+    }
+
     .photo-border:hover {
         border-color: #f70707;
     }
@@ -596,6 +667,7 @@ body {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
+    /*--------------Band section*/
     .photo-border-band {
         height: 330px;
         width: 530px;
