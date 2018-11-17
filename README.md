@@ -130,7 +130,7 @@ All testing completed on Safari and Google Chrome at both mobile and desktop siz
 
 Encountered various bugs while testing:
 
-- Bug found when testing 'band member' information page where the image was scaling at smaller resolutions to fit the text overlay from larger resolution size. This was causing the cirular images to scale more vertically, causing an oval shape skewed image.
+- Bug found when testing 'band member' information page where the image was scaling at smaller resolutions to fit the text overlay from larger resolution size. This was causing the circular images to scale more vertically, causing an oval shape skewed image.
 - Found that at smaller resolutions, some of the Form labels on the booking page were extending to two lines, causing the form the go out of alignment. 
 - Found issue whereby the background image on the 'The Band' page would not scale vertically enough to fit the band member images and therefore leaving an undesirable cut off with the background. Only visible at certain resolutions due to the scale set to the viewport height.
 - Encountered problem where the contact information text on the 'Booking' page was sized as described for the extra small devices, even on the larger resolutions.
