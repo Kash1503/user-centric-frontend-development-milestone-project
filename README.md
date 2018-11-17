@@ -66,6 +66,9 @@ Wireframes and other documentation is stored in the [Planning Folder](planning)
 
 - Schedule of future events with links to ticket sales
 - Live news feed for Band related news and events
+- Pricing chart for the booking section
+- Band availability visible with booking form
+- 'Subscribe' button so users can subscibe/follow band social media without leaving page
 
 
 ## Technologies Used
@@ -81,3 +84,87 @@ Wireframes and other documentation is stored in the [Planning Folder](planning)
 
 ## Testing
 
+All testing completed on Safari and Google Chrome at both mobile and desktop size on macbook pro and iphone 7 Plus. Unable to see difference between browsers tested on.
+
+1. Booking Form:
+    i. Go to the 'Booking' page
+   ii. Attempted to submit an empty form
+  iii. Attempted to input invalid email format
+   iv. Attempted to input alphabetic characters into the 'phone number' field
+    v. Completed form and checked there was no error message
+
+2. Contact section responsiveness:
+    i. Go to the 'Booking' page
+   ii. Check the contact information is readable on all resolutions/devices
+
+3. Back Catalogue:
+    i. Go to the 'Music' page
+   ii. Attempted to play video file
+  iii. Attempted to play audio file
+   iv. Tested use of the audio/video controls
+    v. Ensured cover images and content was visible/audiable on all resolutions
+
+4. Latest content:
+    i. Go to the 'Music' page
+   ii. Checked that the youtube link was visible on all resolutions
+  iii. Tested link to ensure it opened new tab and took user to the youtube page
+
+5. Social Links:
+    i. Go to the 'Home' page
+   ii. Test all social media links in header and footer to ensure new tab is opened and appropriate page is loaded
+  iii. Cycled through every page and repeated test
+
+6. Band information page:
+    i. Go to the 'The Band' page
+   ii. Hovered each image to ensure animation played
+  iii. Checked to see all text stayed within parent image
+   iv. Ensured all text was legible and visible at all resolutions
+    v. Tested between desktop and mobile to ensure information is readable and user friendly on all devices
+
+7. Newsletter Form:
+    i. Go to the 'Home' page
+   ii. Tested submit button with empty form to ensure required fields were functioning correctly
+  iii. Tested submit button with complete form to ensure it was successful
+   iv. Attempted to input invalid email format to ensure data type is correct
+    v. Tested modal button on smaller resolutions to ensure modal loads and form works as per testing above
+
+Encountered various bugs while testing:
+
+- Bug found when testing 'band member' information page where the image was scaling at smaller resolutions to fit the text overlay from larger resolution size. This was causing the cirular images to scale more vertically, causing an oval shape skewed image.
+- Found that at smaller resolutions, some of the Form labels on the booking page were extending to two lines, causing the form the go out of alignment. 
+- Found issue whereby the background image on the 'The Band' page would not scale vertically enough to fit the band member images and therefore leaving an undesirable cut off with the background. Only visible at certain resolutions due to the scale set to the viewport height.
+- Encountered problem where the contact information text on the 'Booking' page was sized as described for the extra small devices, even on the larger resolutions.
+
+
+## Deployment
+
+In order to deploy this project, regular commits were made to the Github repository and then using Github pages I was able to deploy the website. No apparent difference between development and deployed builds.
+
+I have only used on Git branch to develop and deploy this project. 
+
+## Credit
+
+### Content
+
+- Text for the 'Music' page was taken from the [Daydream Believer Wiki](https://en.wikipedia.org/wiki/Daydream_Believer)
+- Text for the band and band members information was taken from the following:
+  - [The Monkees Wiki](https://en.wikipedia.org/wiki/The_Monkees)
+  - [Davey Jones Wiki](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+  - [Micky Dolenz Wiki](https://en.wikipedia.org/wiki/Micky_Dolenz)
+  - [Michael Nesmith Wiki](https://en.wikipedia.org/wiki/Michael_Nesmith)
+  - [Peter Tork Wiki](https://en.wikipedia.org/wiki/Peter_Tork)
+
+### Media
+
+- The Daydream Believer Cover image was taken from [Flickr](https://www.flickr.com/photos/cdrummbks/8265470236/)
+- The Monkees Logo image was taken from [Band Logo Jukebox](https://www.bandlogojukebox.com/blog/2017/12/4/m1-the-monkees)
+- The 'Music' page background image was taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:The_Monkees_May_1967.jpg)
+
+### Acknowledgments
+
+Inspiration was taken from the following: 
+
+- [The Kinks Official Website](https://thekinks.info/news/)
+- [The Rolling Stones Official Website](http://www.rollingstones.com/)
+- [The Who Official Website](https://www.thewho.com/)
+- [The Beegees Official Website](http://www.beegees.com/)
