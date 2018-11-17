@@ -48,7 +48,7 @@ The site is also aimed at newer potential fans who may be of a younger age group
 
 ### Planning 
 
-Wireframes other documentation is stored in the [Planning Folder](planning)
+Wireframes and other documentation is stored in the [Planning Folder](planning)
 
 
 ## Features
