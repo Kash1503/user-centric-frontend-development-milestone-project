@@ -311,14 +311,11 @@ body {
 .contact-text {
     font-weight: 200;
     font-size: 10px;
-    margin: ;
-    0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-/*-------------------------------------------Music*/
-
-/*-------------------------------Video*/
+/*-------------------------------------------Music - video*/
 
 .music-video {
     position: relative;
