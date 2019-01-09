@@ -140,7 +140,7 @@ Encountered various bugs while testing:
 
 In order to deploy this project, regular commits were made to the Github repository and then using Github pages I was able to deploy the website. No apparent difference between development and deployed builds.
 
-I have only used one Git branch to develop and deploy this project. 
+I have only used one Git branch to develop and deploy this project. [Click here to go to the website](https://kash1503.github.io/user-centric-frontend-development-milestone-project/index.html)
 
 ## Credit
 

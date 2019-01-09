@@ -9,6 +9,7 @@ body {
 .bg-color-nav {
     background-color: #fff;
     border-bottom: 1px solid #000;
+    padding: 10px 0;
 }
 
 .bg-color-footer {
@@ -68,6 +69,10 @@ body {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+.white-space{
+    padding: 50px 0;
 }
 
 /*-------------------------------------------Navbar*/
@@ -165,11 +170,19 @@ body {
     width: 200px;
 }
 
+.center-nav{
+    padding-top: 10px;
+}
+
 /*-------------------------------------------Footer*/
 
 .copyright-text {
-    margin-top: 10px;
-    font-size: 10px;
+    padding-top: 25px;
+    font-size: 13px;
+}
+
+.footer{
+    padding: 10px 0;
 }
 
 /*-------------------------------------------Welcome section*/
